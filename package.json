@@ -5,24 +5,15 @@
     "packages/*"
   ],
   "scripts": {
-    "start:vue-button": "lerna run --scope vue-button storybook --stream",
-    "build:vue-button": "lerna run --scope vue-button build --stream",
-    "test:vite-common": "lerna run --scope vite-common test --stream",
-    "build": "lerna run build --stream",
-    "test": "NODE_ENV=test jest --coverage"
+    "start:vue-button": "lerna run --scope vue-button",
+    "build:vue-button": "lerna run --scope vue-button build",
+    "test:vite-common": "lerna run --scope vite-common test",
+    "build": "lerna run build"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "^7.0.24",
-    "@storybook/addon-interactions": "^7.0.24",
-    "@storybook/addon-links": "^7.0.24",
-    "@storybook/blocks": "^7.0.24",
-    "@storybook/testing-library": "^0.0.14-next.2",
-    "@storybook/vue3": "^7.0.24",
-    "@storybook/vue3-vite": "^7.0.24",
     "@vitejs/plugin-vue": "^4.1.0",
     "lerna": "^7.1.1",
     "prop-types": "^15.8.1",
-    "storybook": "^7.0.24",
     "typescript": "^5.0.2",
     "vite": "^4.3.9",
     "vue-tsc": "^1.4.2"
